@@ -104,5 +104,6 @@ a.header:hover {
 	#header {
 		width: 90%;
 		left: 5%;
+		font-size: 24px;
 	}
 }
