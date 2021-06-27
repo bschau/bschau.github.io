@@ -257,5 +257,10 @@ jokes.push([
 	'Hva\' s&aring; Aladdin, vil lortet ikke starte?'
 ].join('<br />'));
 
+jokes.push([
+	'Hvorfor ligger konvolutterne i skuffen?',
+	'De ku\'v&aelig;r\'der'
+].join('<br />'));
+
 var joke = jokes[Math.floor(Math.random() * jokes.length)];
 document.getElementById('joke').innerHTML = joke;
