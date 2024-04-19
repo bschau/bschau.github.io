@@ -14,11 +14,11 @@ const index = Math.floor(Math.random() * 16);
 document.body.style.background = '#' + background[index];
 
 // ldx+stx
-const pElem = document.getElementById('ldx');
+const pElem = document.getElementById('mnemonic');
 if (pElem !== null) {
 	var hex = index.toString(16);
 	hex = hex.length == 1 ? "0" + hex : hex;
-	pElem.innerHTML = 'ldx #' + hex + '&nbsp;&nbsp;<br />stx #d020<br />stx #d021';
+	pElem.innerHTML = '(lda #$' + hex + '; sta $d020; sta $d021;)';
 }
 
 // Foreground
@@ -29,7 +29,7 @@ for (var i = 0; i < elements.length; i++) {
 }
 
 // Links
-const clsName = text[index] === '000000' ? 'white' : 'black';
+const clsName = index < 2 ? "grey" : (text[index] === '000000' ? 'white' : 'black');
 let anchors = document.getElementsByTagName('a');
 for (var i = 0; i < anchors.length; i++) {
 	anchors[i].classList.add(clsName);
