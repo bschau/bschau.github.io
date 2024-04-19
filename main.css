@@ -41,6 +41,7 @@ html, body {
 	width: 100%;
 }
 
+/*
 a.menu, a.menu:visited, a.menu:hover, a.menu:active {
 	background: linear-gradient(to bottom, #aae 0%, #aae 100%);
 	background-position: 0 100%;
@@ -55,8 +56,10 @@ a.menu:hover {
 	color: #fff;
 	background-size: 4px 50px;
 }
+*/
 
 /** header */
+/*
 #header {
 	position: absolute;
 	top: 0;
@@ -68,7 +71,13 @@ a.menu:hover {
 	text-align: center;
 	margin-top: 1em;
 }
+*/
 
+.header {
+	text-align: center;
+}
+
+/*
 a.header, a.header:visited, a.header:hover, a.header:active {
 	background: linear-gradient(to bottom, #aea 0%, #aea 100%);
 	background-size: 2px 2px;
@@ -83,26 +92,59 @@ a.header:hover {
 	color: #fff;
 	background-size: 2px 50px;
 }
+*/
+
+a.white, a.white:visited, a.white:hover, a.white:active {
+	background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+	background-size: 2px 2px;
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	text-decoration: none;
+	transition: background-size .2s;
+	color: #fff;
+}
+
+a.white:hover {
+	color: #fff;
+	background-size: 2px 50px;
+}
+
+a.black, a.black:visited, a.black:hover, a.black:active {
+	background: linear-gradient(to bottom, #000 0%, #000 100%);
+	background-size: 2px 2px;
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	text-decoration: none;
+	transition: background-size .2s;
+	color: #000;
+}
+
+a.black:hover {
+	color: #000;
+	background-size: 2px 50px;
+}
 
 @media only screen and (max-width: 640px) {
+/*
 	#menu-wrapper {
 		position: absolute;
 		top: 20%;
 		left: 5%;
 		width: 90%;
 	}
+	*/
 
-	/* Multiple columns
 	.menu-l, .menu-r {
 		float: none;
 		text-align: center;
 		width: 100%;
 	}
-	*/
 
+/*
 	#header {
 		width: 90%;
 		left: 5%;
 		font-size: 24px;
 	}
+	*/
 }
