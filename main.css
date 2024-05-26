@@ -42,7 +42,7 @@ a, a:visited, a:hover, a:active {
 	background-position: 0 100%;
 	background-repeat: repeat-x;
 	text-decoration: none;
-	transition: background-size .2s;
+	transition: background-size .4s;
 	color: #224;
 }
 
