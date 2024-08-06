@@ -1434,8 +1434,11 @@ That is why some people appear bright until you hear them talk.
 15. Take care of your fucking body. Exercise and eat well.
 %
 Success is not final.
-Faiure is not fatal.
+Failure is not fatal.
 It is the courage to continue that counts.
 Success is stumbling from failure to failure with no loss of enthusiasm.
     -- Winston Churchill
+%
+What is a web developer's favourite tea?
+URL Grey.
 %
