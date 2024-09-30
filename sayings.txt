@@ -1461,3 +1461,5 @@ Kuchisabishii: When you're not hungry, but you eat because your mouth is lonely.
 %
 I wouldn't have to manage my anger if people would manage their stupidity.
 %
+"We’re agile" has come to mean "We’re moving fast and breaking things to get new, not-thought-out untested features delivered this quarter."
+%
