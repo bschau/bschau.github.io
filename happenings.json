@@ -11,6 +11,7 @@
 		"Birthday": "&#127874;",
 		"Death": "&#10013;",
 		"Wedding": "&#10084;"
+		"Baptism": "&#1F54A;"
 	},
 	"Events": [
 		{
@@ -159,6 +160,11 @@
 			"Description": "Hans Peter"
 		},
 		{
+			"Date": "2009-09-26",
+			"Type": "Baptism",
+			"Description": "Jonathan d&aring;b"
+		},
+		{
 			"Date": "2012-10-21",
 			"Type": "Death",
 			"Description": "Hans Peter"
@@ -167,6 +173,11 @@
 			"Date": "2005-11-11",
 			"Type": "Wedding",
 			"Description": "Brian &amp; Charlotte"
+		},
+		{
+			"Date": "2005-11-11",
+			"Type": "Baptism",
+			"Description": "Rebecca d&aring;b"
 		},
 		{
 			"Date": "1940-12-01",
