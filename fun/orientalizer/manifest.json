@@ -1,7 +1,8 @@
 {
 	"name": "Orientalizer",
-    "short_name": "Orientalizer",
-    "display": "standalone",
+	"short_name": "Orientalizer",
+	"start_url": "/fun/orientalizer/index.html",
+	"scope": "/fun/orientalizer/",
 	"icons": [{
 		"src": "img/android-chrome-192x192.png",
 		"sizes": "192x192",
@@ -13,5 +14,5 @@
 	}],
 	"theme_color": "#000000",
 	"background_color": "#ffffff",
-    "start_url": "/fun/orientalizer/index.html"
+	"display": "standalone"
 }

@@ -11,7 +11,7 @@ if (window.location.hash) {
     hash = window.location.hash;
 }
 
-const scl = new Scl(window, 'e2d', '#currency-page');
+const scl = new Scl(window, 'tools/e2d', '#currency-page');
 //const scl = new Scl(window, '', '#currency-page');
 let routes = {
     '#fetching-page': new PageFetching(scl),

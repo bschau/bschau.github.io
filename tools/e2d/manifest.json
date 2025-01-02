@@ -1,7 +1,8 @@
 {
 	"name": "Euro2DKK",
-    "short_name": "Euro2DKK",
-    "display": "standalone",
+	"short_name": "Euro2DKK",
+	"start_url": "/tools/e2d/index.html",
+	"scope": "/tools/e2d/",
 	"icons": [{
 		"src": "img/android-chrome-192x192.png",
 		"sizes": "192x192",
@@ -13,5 +14,5 @@
 	}],
 	"theme_color": "#000000",
 	"background_color": "#ffffff",
-    "start_url": "/tools/e2d/index.html"
+	"display": "standalone"
 }

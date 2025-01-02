@@ -1,7 +1,8 @@
 {
 	"name": "PXSC",
-    "short_name": "PXSC",
-    "display": "standalone",
+	"short_name": "PXSC",
+	"start_url": "/games/pxsc/index.html",
+	"scope": "/games/pxsc/",
 	"icons": [{
 		"src": "img/android-chrome-192x192.png",
 		"sizes": "192x192",
@@ -13,5 +14,5 @@
 	}],
 	"theme_color": "#000000",
 	"background_color": "#ffffff",
-    "start_url": "/games/pxsc/"
+	"display": "standalone"
 }
