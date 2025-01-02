@@ -1,7 +1,8 @@
 {
 	"name": "KaedeRxn",
-    "short_name": "KaedeRxn",
-    "display": "standalone",
+	"short_name": "KaedeRxn",
+	"start_url": "/games/kaederxn/index.html",
+	"scope": "/games/kaederxn/",
 	"icons": [{
 		"src": "img/android-chrome-192x192.png",
 		"sizes": "192x192",
@@ -13,5 +14,5 @@
 	}],
 	"theme_color": "#000000",
 	"background_color": "#000000",
-    "start_url": "/games/kaederxn/"
+	"display": "standalone"
 }
